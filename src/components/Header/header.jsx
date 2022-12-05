@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
 import React from 'react'
 import './header.css'
-import logo from '../../assets/Logo-GR-XL-Rouge.svg'
-import instagram from '../../assets/logo_insta.png'
+import logo from '../../assets/Logo-GR-XL-Rouge-min.png'
+import instagram from '../../assets/logo_insta-min.png'
 
 function Header() {
   return (

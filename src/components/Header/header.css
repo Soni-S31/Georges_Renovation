@@ -15,6 +15,7 @@
   justify-content: flex-start;
   padding: 5px;
   width: 100%;
+  font-family: 'Rubik', sans-serif;
 }
 .insta{
   padding: 5px;
@@ -53,7 +54,7 @@
   text-decoration: none;
   font-size: 20px;
   line-height: 25.25px;
-  
+  font-family: 'Rubik', sans-serif;
   text-transform: uppercase;
 }
 .navli :focus {
@@ -75,6 +76,7 @@
   .header_container {
     width: auto;
     padding: 10px;
+    
   }
   .phone_number,
   .insta {
@@ -93,12 +95,12 @@
     padding-bottom: 0px;
   }
   .navli {
-    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 142.6%;
     text-transform: uppercase;
+    
   }
 }
 
