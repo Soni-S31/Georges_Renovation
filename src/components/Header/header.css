@@ -13,13 +13,13 @@
   padding: 5px;
   width: 100%;
 }
-.logo_instagram{
-    display: flex;
-    justify-content: flex-end;
+.logo_instagram {
+  display: flex;
+  justify-content: flex-end;
 }
-.instagram{
-    width: 8%;
-    padding: 5px ;
+.instagram {
+  width: 8%;
+  padding: 5px;
 }
 .logo_center {
   display: flex;
@@ -70,8 +70,9 @@
     width: auto;
     padding: 10px;
   }
-  .phone_number, .instagram{
-      padding: 0px;
+  .phone_number,
+  .instagram {
+    padding: 0px;
   }
   .logo {
     height: 150px;
@@ -97,10 +98,9 @@
 
 /************* Mobile *******************/
 @media (max-width: 768px) {
-    .header_container {
-        
-        padding: 6px;
-      }
+  .header_container {
+    padding: 6px;
+  }
   .phone_number {
     font-size: 14px;
   }
@@ -116,20 +116,21 @@
   }
 }
 /************* Mobile *******************/
-@media (max-width: 500px){
-    .header_info{
-        display: flex;
-    }
-    .phone_number {
-        font-size: 12px;
-      }
-    .navli {
-        font-size: 12px;
-      }
-      .phone_number, .insta{
-        width: 50%;
-    }
-    .instagram{
-        width: 15%;
-    }
+@media (max-width: 500px) {
+  .header_info {
+    display: flex;
+  }
+  .phone_number {
+    font-size: 12px;
+  }
+  .navli {
+    font-size: 12px;
+  }
+  .phone_number,
+  .insta {
+    width: 50%;
+  }
+  .instagram {
+    width: 15%;
+  }
 }
