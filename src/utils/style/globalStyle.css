@@ -1,0 +1,12 @@
+/* Font pour le site */
+@import url('https://fonts.googleapis.com/css2? famille= Oxygène &family= Rubik & display=swap');
+
+
+/* Style glabal site*/
+*{
+    margin: 0px;
+}
+.App {
+    margin : 0px;
+    font-family: 'Oxygen', sans-serif;
+}
