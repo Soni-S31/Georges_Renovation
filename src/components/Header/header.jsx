@@ -31,22 +31,22 @@ function Header() {
         <ul className="navbar">
           <li className="navli">
             <Link className="nav" to="/">
-              ACCUEIL
+              Accueil
             </Link>
           </li>
           <li className="navli">
             <Link className="nav" to="/about">
-              A PROPOS
+              A propos
             </Link>
           </li>
           <li className="navli">
             <Link className="nav" to="/realisations">
-              RÉALISATIONS
+              Réalisations
             </Link>
           </li>
           <li className="navli">
             <Link className="nav" to="/contact">
-              CONTACT
+              Contact
             </Link>
           </li>
         </ul>
