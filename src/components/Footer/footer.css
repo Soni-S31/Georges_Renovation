@@ -1,0 +1,76 @@
+/********** Desktop ************/
+.footer {
+  background-color: #ba1313;
+  color: white;
+  padding: 10px;
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 60px;
+}
+.footer_container {
+  width: 100%;
+  padding-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+.logo_center {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  width: 100%;
+}
+.footer_logo {
+  width: 20%;
+}
+.lien_reseau {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+}
+.logo_reso {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+.footer_info {
+  font-size: 15px;
+  line-height: 142.6%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/********** Tablette **********/
+@media (max-width: 992px) {
+  .footer {
+    height: auto;
+    padding: 0px;
+    justify-content: space-between;
+    padding: 5px;
+    padding-bottom: 5px;
+  }
+  .logo_reso {
+    width: 30px;
+    height: 30px;
+  }
+  .footer_logo {
+    width: 30%;
+  }
+  .footer_info {
+    font-size: 12px;
+  }
+}
+
+/************* Mobile *******************/
+@media (max-width: 768px) {
+  .footer_logo {
+    margin-top: 10px;
+  }
+}
+/************* Mobile *******************/
+@media (max-width: 450px) {
+}
