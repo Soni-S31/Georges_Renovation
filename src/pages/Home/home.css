@@ -32,6 +32,9 @@ H5 {
   position: absolute;
   z-index: 3;
   gap: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .border_banner {
   border-radius: 15px;
@@ -40,18 +43,20 @@ H5 {
 .banner_title {
   font-size: 48px;
   font-family: 'Rubik', sans-serif;
-  padding: 30px 40px;
+  padding: 25px 25px;
   line-height: 40px;
-  letter-spacing: 0.2em;
+  letter-spacing: 6px;
   color: black;
+  text-align: center;
 }
 .banner_city {
   font-size: 32px;
   font-family: 'Rubik', sans-serif;
   color: #ba1313;
-  padding: 30px 40px;
+  padding: 25px 25px;
   line-height: 40px;
-  letter-spacing: 0.2em;
+  letter-spacing: 6px;
+  text-align: center;
 }
 /*******Main****/
 .content_intro {
@@ -67,34 +72,161 @@ H5 {
 }
 .content_display {
   display: flex;
-  justify-content: center;
-  gap: 5%;
+  justify-content: space-around;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
-.content_action{
+.content_action {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 180px;
 }
 .content_action img {
   width: 170px;
   padding-bottom: 10px;
 }
-.content_action p{
-  width: 180px;
+.content_txt {
   padding: 5px;
   font-family: 'Oxygen', sans-serif;
   display: flex;
   align-items: center;
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
 }
 /********** Tablette **********/
 @media (max-width: 992px) {
+  /*BANNER*/
+  .banner{
+    height: 300px;
+  }
+  .banner_img_left{
+    height: 300px;
+  }
+  .banner_img_right{
+    height: 300px;
+  }
+  .banner_title {
+    font-size: 35px;
+    padding: 20px 30px;
+  }
+  .banner_city {
+    font-size: 25px;
+    padding: 20px 30px;
+  }
+  .banner_info {
+    gap: 20px;
+  }
+  /*CONTENT*/
+  .content_intro {
+    font-size: 20px;
+  }
+  .content_display {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .content_action {
+    width: 120px;
+  }
+  .content_action img {
+    width: 120px;
+    padding-bottom: 10px;
+  }
+  .content_txt {
+    font-size: 15px;
+  }
 }
 
 /************* Mobile *******************/
 @media (max-width: 768px) {
+  .banner{
+    height: 200px;
+  }
+  .banner_img_left{
+    height: 200px;
+  }
+  .banner_img_right{
+    height: 200px;
+  }
+  .banner_title {
+    font-size: 25px;
+    padding: 10px 12px;
+    letter-spacing: 2px;
+    margin: 5px;
+  }
+  .banner_city {
+    font-size: 20px;
+    padding: 10px 12px;
+    letter-spacing: 2px;
+    margin: 5px;
+  }
+  .banner_info {
+    gap: 15px;
+  }
+
+  /*CONTENT*/
+  .content_intro {
+    font-size: 18px;
+    padding: 20px;
+    letter-spacing: 0px;
+  }
+  .content_display {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .content_action {
+    width: 90px;
+  }
+  .content_action img {
+    width: 90px;
+    padding-bottom: 10px;
+  }
+  .content_txt {
+    font-size: 12px;
+  }
 }
-/************* Mobile *******************/
+
+
+
+/**********450px*/
 @media (max-width: 450px) {
+  
+  .banner_title {
+    font-size: 20px;
+    padding: 5px 8px;
+    letter-spacing: 1px;
+    margin: 5px;
+  }
+  .banner_city {
+    font-size: 16px;
+    padding: 5px 8px;
+    letter-spacing: 1px;
+    margin: 5px;
+  }
+  .banner_info {
+    gap: 15px;
+  }
+
+
+  /*CONTENT*/
+  .content_intro {
+    font-size: 15px;
+  }
+  .content_display {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 30px;
+  }
+  .content_action {
+    width: 150px;
+  }
+  .content_action img {
+    width: 150px;
+    padding-bottom: 5px;
+  }
+  .content_txt {
+    font-size: 12px;
+  }
 }

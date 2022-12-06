@@ -23,48 +23,48 @@ function Home() {
             alt="salle d'eau bleue rénovée avec carreaux de ciment"
           />
         </div>
-        <div className="banner_info">
+        <title className="banner_info">
           <div className="border_banner">
             <h2 className="banner_title">Spécialiste du second oeuvre</h2>
           </div>
           <div className="border_banner">
             <h3 className="banner_city">Toulouse et ses environs</h3>
           </div>
-        </div>
+        </title>
       </article>
       <article className="content">
-        <div className="content_intro">
-          <p>
-            Vous avez un projet de rénovation, de création pour votre maison,
-            Georges Rénovation vous accompagne de la conception à la réalisation
-            de votre projet.
-          </p>
-        </div>
+        <title className="content_intro">
+          Vous avez un projet de rénovation, de création pour votre maison,
+          Georges Rénovation vous accompagne de la conception à la réalisation
+          de votre projet.
+        </title>
         <div className="content_display">
-          <div className="content_action">
+          <figure className="content_action">
             <img
-              className="sdb_img"
+              className="content_img"
               src={Sdb}
               alt="Logo salle de bain dessiné  noir et blanc"
             />
-            <p className="sdb_txt">Conception & Rénovation de salle de bain</p>
-          </div>
-          <div className="content_action">
+            <figcaption className="content_txt">
+              Conception & Rénovation de salle de bain
+            </figcaption>
+          </figure>
+          <figure className="content_action">
             <img
-              className="carrelage_img"
+              className="content_img"
               src={Carrelage}
               alt="Logo carrelage et faïence dessiné  noir et blanc"
             />
-            <p className="carrelage_txt">Carrelage / Faïence</p>
-          </div>
-          <div className="content_action">
+            <figcaption className="content_txt">Carrelage / Faïence</figcaption>
+          </figure>
+          <figure className="content_action">
             <img
-              className="cuisine_img"
+              className="content_img"
               src={Cuisine}
               alt="Logo cuisine dessiné noir et blanc"
             />
-            <p className="carrelage_txt">Carrelage / Faïence</p>
-          </div>
+            <figcaption className="content_txt">Cuisine</figcaption>
+          </figure>
         </div>
       </article>
     </main>
