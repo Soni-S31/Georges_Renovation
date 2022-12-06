@@ -32,13 +32,13 @@ function Home() {
           </div>
         </title>
       </article>
-      <article className="content">
+      <section className="content">
         <title className="content_intro">
           Vous avez un projet de rénovation, de création pour votre maison,
           Georges Rénovation vous accompagne de la conception à la réalisation
           de votre projet.
         </title>
-        <div className="content_display">
+        <article className="content_display">
           <figure className="content_action">
             <img
               className="content_img"
@@ -65,8 +65,25 @@ function Home() {
             />
             <figcaption className="content_txt">Cuisine</figcaption>
           </figure>
-        </div>
-      </article>
+        </article>
+        <article className="info_display">
+          <p className="info_black">
+            Afin de répondre au mieux à vos demandes, vous pouvez nous joindre :{' '}
+          </p>
+          <address className="info_red">
+            <a href="mailto:georges.renovation31@gmail.com">
+              georges.renovation31@gmail.com
+            </a>
+          </address>
+          <address className="info_red">
+            <a href="tel:+33695975087"> 05 95 97 50 87 </a>
+          </address>
+          <p className="info_black">
+            N’hésitez pas à laisser un message ou exposer votre projet, nous
+            vous contacterons au plus vite.{' '}
+          </p>
+        </article>
+      </section>
     </main>
   )
 }

@@ -131,6 +131,8 @@
   }
   .navli {
     font-size: 12px;
+    text-transform: capitalize
+    ;
   }
   .phone_number,
   .insta {

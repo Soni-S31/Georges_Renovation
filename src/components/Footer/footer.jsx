@@ -34,8 +34,17 @@ function Footer() {
         </Link>
       </div>
       <div className="footer_info">
-        <p>24 rue Bernadette - 31 100 Toulouse</p>
-        <p>georges.renovation31@gmail.com - Tél. : 06 95 97 50 85</p>
+        <address className="footer_adresse">
+          24 rue Bernadette - 31 100 Toulouse
+        </address>
+        <address className="footer_adresse">
+          <a href="mailto:georges.renovation31@gmail.com">
+            georges.renovation31@gmail.com
+          </a>
+        </address>
+        <address className="footer_adresse">
+          <a href="tel:+33695975087"> 05 95 97 50 87 </a>
+        </address>
         <p>Siren : 898572698 APE: 4322B</p>
       </div>
     </footer>

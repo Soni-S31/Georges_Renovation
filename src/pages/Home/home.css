@@ -68,7 +68,7 @@ H5 {
   text-align: center;
   letter-spacing: 0.2em;
   color: #000000;
-  padding: 50px;
+  padding: 40px;
 }
 .content_display {
   display: flex;
@@ -94,16 +94,32 @@ H5 {
   text-align: center;
   font-size: 18px;
 }
+/*Info*/
+.info_display {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 24px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  padding: 40px;
+}
+.info_red a {
+  color: #ba1313;
+  text-decoration: none;
+  font-style: normal;
+  overflow-wrap: break-word;
+}
+
 /********** Tablette **********/
 @media (max-width: 992px) {
   /*BANNER*/
-  .banner{
+  .banner {
     height: 300px;
   }
-  .banner_img_left{
+  .banner_img_left {
     height: 300px;
   }
-  .banner_img_right{
+  .banner_img_right {
     height: 300px;
   }
   .banner_title {
@@ -135,17 +151,22 @@ H5 {
   .content_txt {
     font-size: 15px;
   }
+  /*Info*/
+  .info_display {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 /************* Mobile *******************/
 @media (max-width: 768px) {
-  .banner{
+  .banner {
     height: 200px;
   }
-  .banner_img_left{
+  .banner_img_left {
     height: 200px;
   }
-  .banner_img_right{
+  .banner_img_right {
     height: 200px;
   }
   .banner_title {
@@ -184,33 +205,41 @@ H5 {
   .content_txt {
     font-size: 12px;
   }
+  /*Info*/
+  .info_display {
+    font-size: 18px;
+    padding: 20px;
+    letter-spacing: 0.1em;
+  }
 }
-
-
 
 /**********450px*/
 @media (max-width: 450px) {
-  
   .banner_title {
-    font-size: 20px;
-    padding: 5px 8px;
-    letter-spacing: 1px;
-    margin: 5px;
+    font-size: 18px;
+    padding: 5px;
+    text-transform: inherit;
+    line-height: 20px
   }
   .banner_city {
     font-size: 16px;
-    padding: 5px 8px;
-    letter-spacing: 1px;
-    margin: 5px;
+    padding: 5px ;
+    line-height: 25px;
   }
   .banner_info {
     gap: 15px;
+    padding: 10px;
   }
-
+  /*Info*/
+  .info_display {
+    font-size: 14px;
+    line-height: 30px;
+  }
 
   /*CONTENT*/
   .content_intro {
-    font-size: 15px;
+    font-size: 14px;
+    letter-spacing: 0.1em;
   }
   .content_display {
     flex-direction: column;
@@ -227,6 +256,7 @@ H5 {
     padding-bottom: 5px;
   }
   .content_txt {
-    font-size: 12px;
+    font-size: 14px;
+    letter-spacing: 0.1em;
   }
 }

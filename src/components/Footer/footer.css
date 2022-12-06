@@ -38,11 +38,22 @@
   border-radius: 10px;
 }
 .footer_info {
-  font-size: 15px;
-  line-height: 142.6%;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.2em;
   display: flex;
   align-items: center;
   flex-direction: column;
+  
+}
+.footer_adresse{
+  font-style: normal;
+}
+.footer_adresse a{
+  text-decoration: none;
+  color: white;
+  font-style: normal;
+  cursor: pointer;
 }
 
 /********** Tablette **********/
@@ -59,7 +70,7 @@
     height: 30px;
   }
   .footer_logo {
-    width: 30%;
+    width: 35%;
   }
   .footer_info {
     font-size: 12px;
@@ -68,6 +79,9 @@
 
 /************* Mobile *******************/
 @media (max-width: 768px) {
+  .footer{
+    margin-top: 20px;
+  }
   .footer_logo {
     margin-top: 10px;
   }
@@ -78,4 +92,10 @@
 }
 /************* Mobile *******************/
 @media (max-width: 450px) {
+  .footer_info {
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    
+  }
 }
