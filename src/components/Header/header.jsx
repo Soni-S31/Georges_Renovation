@@ -7,17 +7,44 @@ import instagram from '../../assets/logo_insta-min.png'
 function Header() {
   return (
     <header className="header_container">
-      <div className="header_info">
-        <div className="phone_number">06 95 97 50 87</div>
-        <div className="insta">
-          <Link className="logo_instagram" to="/">
-            <img
-              className="instagram"
-              src={instagram}
-              alt="lien instagram Georges Rénovation"
-            />
-          </Link>
-        </div>
+      <div className="hamburger_menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label className="menu__btn" htmlFor="menu__toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul className="menu__box">
+          <li>
+            <a className="menu__item" href="/">
+              Accueil
+            </a>
+          </li>
+          <li>
+            <a className="menu__item" href="/About">
+              A propos
+            </a>
+          </li>
+          <li>
+            <a className="menu__item" href="/Realisations">
+              Réalisations
+            </a>
+          </li>
+          <li>
+            <a className="menu__item" href="/Contact">
+              Contact
+            </a>
+          </li>
+          <li>
+            <a className="menu__item" href="/">
+              <img
+                className="instagram"
+                src={instagram}
+                alt="lien instagram Georges Rénovation"
+              />
+            </a>
+          </li>
+        </ul>
       </div>
       <Link className="logo_center" to="/">
         <img
@@ -27,30 +54,9 @@ function Header() {
         />
       </Link>
 
-      <div className="nav_container">
-        <ul className="navbar">
-          <li className="navli">
-            <Link className="nav" to="/">
-              Accueil
-            </Link>
-          </li>
-          <li className="navli">
-            <Link className="nav" to="/about">
-              A propos
-            </Link>
-          </li>
-          <li className="navli">
-            <Link className="nav" to="/realisations">
-              Réalisations
-            </Link>
-          </li>
-          <li className="navli">
-            <Link className="nav" to="/contact">
-              Contact
-            </Link>
-          </li>
-        </ul>
-      </div>
+      <title className="header_content">
+        <h2 className="header_title">Spécialiste du second oeuvre</h2>
+      </title>
     </header>
   )
 }

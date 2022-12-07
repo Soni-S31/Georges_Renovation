@@ -1,6 +1,5 @@
 import React from 'react'
 import './home.css'
-import ImgLeft from '../../assets/IMG-seblue-min.jpg'
 import ImgRight from '../../assets/IMG-sdb-min.jpg'
 import '../../utils/style/globalStyle.css'
 import Sdb from '../../assets/salle-de-bains-min.png'
@@ -13,24 +12,11 @@ function Home() {
       <article className="banner">
         <div className="banner_container">
           <img
-            className="banner_img_left"
-            src={ImgLeft}
-            alt="salle d'eau bleue rénovée avec carreaux de ciment"
-          />
-          <img
-            className="banner_img_right"
+            className="banner_img"
             src={ImgRight}
             alt="salle d'eau bleue rénovée avec carreaux de ciment"
           />
         </div>
-        <title className="banner_info">
-          <div className="border_banner">
-            <h2 className="banner_title">Spécialiste du second oeuvre</h2>
-          </div>
-          <div className="border_banner">
-            <h3 className="banner_city">Toulouse et ses environs</h3>
-          </div>
-        </title>
       </article>
       <section className="content">
         <title className="content_intro">
